@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="About Me!"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/pics" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:text="👋 Hello, world! I'm Sanjay Mali, and I'm on a mission to bring digital dreams to life as a frontend developer. 🌟
+🌆 From my early days, I've been captivated by the intersection of technology and creativity. My story began when I first tinkered with HTML and CSS to craft my very first website. Little did I know that this fascination would ignite a lifelong passion for web development.🔗
+🛠️ Over the years, I've honed my skills, diving deep into the intricacies of JavaScript, mastering responsive design, and exploring the vast world of frontend frameworks like React, Node.js and Bootstrap . Each line of code I write is infused with the commitment to delivering not just functional, but also visually stunning digital experiences.🔱
+🔍 I'm not only focused on the technical aspects of my work but also on user behavior. Adept at analyzing user journeys and feedback, I refine and optimize applications to provide a seamless and engaging experience.🌐
+🌟 I'm currently on the lookout for my next adventure. Whether it's collaborating on innovative projects or joining a dynamic team, I'm eager to contribute my skills and passion to create exceptional digital experiences.🌟
+💬 If you're as passionate about the frontend as I am, let's connect and explore opportunities together. You can reach out to me here on LinkedIn or at sanjaymali94284@gmail.com. Together, let's continue this exciting journey of turning lines of code into digital art.🚀
+GitHub :- github.com/sanjay-mali
+LinkedIn :- linkedin.com/in/sanjay-mali-63672a21a
+Twitter :- x.com/BoltHacker1
+Email :- sanjaymali94284@gmail.com" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/btnColor"
+            android:text="Github" />
+
+        <Button
+            android:id="@+id/linkdin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/btnColor"
+            android:text="Linkdin" />
+    </LinearLayout>
+
+
+</LinearLayout>
